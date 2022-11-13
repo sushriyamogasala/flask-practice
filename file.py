@@ -1,10 +1,11 @@
-from flask import Flask
+from flask import Flask,render_template , request
 
 app = Flask(__name__)
 
 @app.route('/')
 
-def hw():
-    return "hello world"
+def login():
+    return render_template('just.html')
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug="True")

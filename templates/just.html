@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript"
+    src = "{{url_for('static', filename ='script.js') }}">
+  </script>
+
+
+</head>
+<body>
+   
+  <center>
+    <form action="http://localhost:5000/login" method="POST">
+    <center><h2>Login form</h2></center>
+    <label for="uname">Username</label>
+    <input type="text" name="uname" placeholder="enter username" required><br><br>
+    <label for="lname">Lastname</label>
+    <input type="text" name="lname" placeholder="enter last name" required><br><br>
+    <label for="pwd">Password</label>
+    <input type="password" name="pwd" required><br><br>
+    <input type="submit" value = "submit chey " onclick="hello()">
+    </form>
+  </center>
+    
+    <!--<section style = "display:flex">
+      <div>
+        <img src="C:\Users\sushr\OneDrive\Pictures\Wallpapers\water.jpg" alt="" srcset="" width="50%">
+      </div>
+      <div>
+        <h2 style="padding-right:500px">My name is Sushriya</h2>
+      </div>
+    </section>
+    <section style="display:flex">
+      <div>
+        <h2>My name is Sushriya</h2>
+      </div>
+      <div>
+        <img src="C:\Users\sushr\OneDrive\Pictures\Wallpapers\water.jpg" alt="" srcset="" width="50%">
+      </div>
+    </section>-->
+</body>
+</html>

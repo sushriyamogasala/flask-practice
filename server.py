@@ -25,7 +25,7 @@ def check(name):
     
 @app.route('/welcome/<welcomename>')
 def welcome(welcomename):
-    return "welcome ra %s" %welcomename
+    return "welcome ra %s" % welcomename
 
 @app.route('/login',methods=['POST','GET'])
 def login():

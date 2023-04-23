@@ -1,4 +1,4 @@
-from flask import Flask,redirect,url_for,render_template,session,make_response
+from flask import Flask,redirect,url_for,render_template,session,make_response,g
 from flask_mail import Mail,Message
 
 app = Flask(__name__)
